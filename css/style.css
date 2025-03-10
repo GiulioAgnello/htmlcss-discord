@@ -204,11 +204,16 @@ footer {
 
 .footrose {
   width: 50%;
+  padding: 30px;
 }
 .footrose > h3 {
   color: #7289da;
 }
 
+.footrose > p {
+  text-align: left;
+  margin: 0;
+}
 .footgreen {
   width: 50%;
 }
@@ -242,21 +247,10 @@ li {
   justify-content: space-between;
 }
 
-.footlogo {
-  background-color: #ffb6c1;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 30px;
-  text-align: center;
-  border: 1px dashed rgb(0, 0, 0);
-}
-
-.booton {
-  background-color: #ffb6c1;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 30px;
-  text-align: center;
-  justify-content: center;
-  border: 1px dashed rgb(0, 0, 0);
+.footbutton {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #7289da;
+  color: white;
 }
