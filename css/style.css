@@ -18,8 +18,8 @@ a {
 ul {
   list-style-type: none;
 }
-li {
-  color: black;
+li.linkhead {
+  color: white;
   display: inline;
 }
 
@@ -203,10 +203,27 @@ footer {
 }
 
 .footrose {
-  background-color: #f08180;
-  height: 300px;
-  flex-grow: 2;
-  border: 1px dashed rgb(0, 0, 0);
+  width: 50%;
+}
+.footrose > h3 {
+  color: #7289da;
+}
+
+.footgreen {
+  width: 50%;
+}
+.column {
+  padding: 30px;
+}
+
+li {
+  text-align: left;
+  color: white;
+}
+
+.column > h4 {
+  text-align: left;
+  color: #7289da;
 }
 
 .conteiner > .footgreen {
