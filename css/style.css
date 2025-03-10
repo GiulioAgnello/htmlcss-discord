@@ -53,7 +53,7 @@ li {
 }
 
 header {
-  background-color: #add8e7;
+  background-color: #255ee9;
   padding-top: 10px;
   padding-bottom: 2px;
   color: black;
@@ -64,8 +64,6 @@ header {
 }
 .page-header > .conteiner {
   display: flex;
-  background-color: #dda51d;
-  border: 1px dashed rgb(0, 0, 0);
 }
 
 .logo {
@@ -78,8 +76,6 @@ header {
   flex-grow: 2;
   text-align: center;
   padding: 10px;
-  border-left: 1px dashed rgb(0, 0, 0);
-  border-right: 1px dashed rgb(0, 0, 0);
 }
 
 .log {
