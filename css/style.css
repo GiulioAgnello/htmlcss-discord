@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+/* utils */
+
+.conteiner {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* header */
+
+.debug * {
+  min-width: 100px;
+
+  -border: 1px dashed red;
+}
+
+header {
+  background-color: #add8e7;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+.page-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.page-header > .conteiner {
+  display: flex;
+  background-color: #dda51d;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+.logo {
+  flex-grow: 1;
+  padding: 10px;
+  border-right: 1px dashed rgb(0, 0, 0);
+}
+
+.link {
+  flex-grow: 2;
+  text-align: center;
+  padding: 10px;
+  border-left: 1px dashed rgb(0, 0, 0);
+  border-right: 1px dashed rgb(0, 0, 0);
+}
+
+.log {
+  flex-grow: 1;
+  padding: 10px;
+  text-align: end;
+  border-left: 1px dashed rgb(0, 0, 0);
+}
+
+.header-blu {
+  background-color: #00018b;
+  padding: 30px;
+}
+
+.pink {
+  background-color: #ef82ed;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 300px;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+/* main */
+main {
+  flex-grow: 1;
+}
+
+.blu {
+  background-color: #1e90ff;
+  height: 300px;
+  flex-grow: 2;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+.rose {
+  background-color: #ffc0ca;
+  height: 300px;
+  flex-grow: 1;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+.green {
+  background-color: #218b21;
+  height: 600px;
+  flex-grow: 1;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+.main.white > .conteiner {
+  display: flex;
+}
+
+.main.gray > .conteiner {
+  display: flex;
+}
+.main.white {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main.gray {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #d3d3d3;
+}
+
+/* footer */
+
+footer {
+  background-color: #23272a;
+}
+
+.footgreen {
+  background-color: #20b3aa;
+  height: 300px;
+  flex-grow: 2;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+.footrose {
+  background-color: #f08180;
+  height: 300px;
+  flex-grow: 2;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+.conteiner > .footgreen {
+  display: flex;
+}
+
+.column {
+  flex-grow: 1;
+  border: 1px dashed rgb(255, 255, 255);
+}
+
+.main-foot {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.main.white > .conteiner {
+  display: flex;
+  background-color: #7fffd4;
+  justify-content: space-between;
+}
+
+.footlogo {
+  background-color: #ffb6c1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  text-align: center;
+  border: 1px dashed rgb(0, 0, 0);
+}
+
+.booton {
+  background-color: #ffb6c1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  border: 1px dashed rgb(0, 0, 0);
+}
