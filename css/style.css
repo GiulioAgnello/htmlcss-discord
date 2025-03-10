@@ -66,18 +66,21 @@ li {
   margin-left: 10px;
 }
 
-/* header */
-
-.debug * {
-  min-width: 100px;
-
-  -border: 1px dashed red;
+.buttonviolet {
+  background-color: #7289da;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: medium;
+  border: none;
+  margin-left: 10px;
 }
+/* header */
 
 header {
   background-color: #255ee9;
   padding-top: 10px;
-  padding-bottom: 2px;
+
   color: black;
 }
 .page-header {
@@ -148,12 +151,26 @@ main {
   border: 1px dashed rgb(0, 0, 0);
 }
 
+.blu {
+  width: 50%;
+}
+
 .rose {
   text-align: center;
+  width: 50%;
+}
+.rose > h2 {
+  text-align: left;
+}
+
+.rose > p {
+  text-align: left;
+  margin: 0;
 }
 
 .green {
   flex-grow: 1;
+  text-align: center;
 }
 
 .main.white > .conteiner im {
