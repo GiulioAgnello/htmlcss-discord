@@ -140,10 +140,6 @@ main {
   flex-grow: 1;
 }
 
-.blu {
-  flex-grow: ;
-}
-
 .blu .item1 {
   background-image: url(../img/item1.svg);
   background-color: transparent;
@@ -157,13 +153,10 @@ main {
 }
 
 .green {
-  background-color: #218b21;
-  height: 600px;
   flex-grow: 1;
-  border: 1px dashed rgb(0, 0, 0);
 }
 
-.main.white > .conteiner {
+.main.white > .conteiner im {
   display: flex;
 }
 
