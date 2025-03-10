@@ -75,6 +75,12 @@ li.linkhead {
   border: none;
   margin-left: 10px;
 }
+
+h2 {
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 /* header */
 
 header {
@@ -196,18 +202,19 @@ main {
   background-color: #d3d3d3;
 }
 
-/* footer */
+/* footer top */
 
 footer {
   background-color: #23272a;
 }
 
 .footrose {
-  width: 50%;
+  width: 30%;
   padding: 30px;
 }
 .footrose > h3 {
   color: #7289da;
+  font-size: 2rem;
 }
 
 .footrose > p {
@@ -215,11 +222,14 @@ footer {
   margin: 0;
   color: white;
 }
+
 .footrose > p::before {
   content: url(../img/ita.png);
-  width: 2px;
-  height: 2px;
+  width: 50px;
+  height: 50px;
   margin-right: 5px;
+  background-image: image(../img/ita.png);
+  background-size: cover;
 }
 
 .footrose > p::after {
@@ -230,24 +240,33 @@ i {
   color: white;
   padding: 15px;
 }
+h3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 
 /* colonne*/
 
 .footgreen {
-  width: 50%;
+  width: 70%;
 }
 .column {
   padding: 30px;
+  padding-right: 10px;
+  justify-content: s;
 }
 
 li {
   text-align: left;
   color: white;
+  padding: 10px;
 }
 
 .column > h4 {
   text-align: left;
   color: #7289da;
+  padding: 10px;
+  font-size: 1.5rem;
 }
 
 .conteiner > .footgreen {
