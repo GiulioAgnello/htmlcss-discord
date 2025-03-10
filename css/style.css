@@ -213,7 +213,26 @@ footer {
 .footrose > p {
   text-align: left;
   margin: 0;
+  color: white;
 }
+.footrose > p::before {
+  content: url(../img/ita.png);
+  width: 2px;
+  height: 2px;
+  margin-right: 5px;
+}
+
+.footrose > p::after {
+  content: " \02C5";
+}
+
+i {
+  color: white;
+  padding: 15px;
+}
+
+/* colonne*/
+
 .footgreen {
   width: 50%;
 }
