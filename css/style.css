@@ -18,6 +18,14 @@ a {
 ul {
   list-style-type: none;
 }
+li {
+  color: black;
+  display: inline;
+}
+
+.linkhead {
+  color: white;
+}
 /* utils */
 
 .conteiner {
@@ -31,6 +39,11 @@ ul {
   flex-direction: column;
   min-height: 100vh;
 }
+
+.button.xs {
+  background-color: white;
+  border-radius: 30px;
+}
 /* header */
 
 .debug * {
@@ -43,12 +56,11 @@ header {
   background-color: #add8e7;
   padding-top: 10px;
   padding-bottom: 2px;
+  color: black;
 }
 .page-header {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 80px;
-  padding-right: 80px;
 }
 .page-header > .conteiner {
   display: flex;
