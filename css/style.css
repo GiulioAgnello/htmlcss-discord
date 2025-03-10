@@ -173,8 +173,14 @@ main {
   text-align: center;
 }
 
-.main.white > .conteiner im {
+.main.white > .conteiner {
   display: flex;
+}
+.foot.white > .conteiner {
+  display: flex;
+  border-bottom: gray solid 2px;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 
 .main.gray > .conteiner {
@@ -215,8 +221,7 @@ footer {
 }
 
 .column {
-  flex-grow: 1;
-  border: 1px dashed rgb(255, 255, 255);
+  flex-direction: column;
 }
 
 .main-foot {
