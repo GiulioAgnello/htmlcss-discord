@@ -141,25 +141,19 @@ main {
 }
 
 .blu {
-  background-color: #1e90ff;
-  height: 300px;
-  flex-grow: 2;
-  border: 1px dashed rgb(0, 0, 0);
+  flex-grow: ;
 }
 
 .blu .item1 {
   background-image: url(../img/item1.svg);
-  background-size: 100%
+  background-color: transparent;
   height: 300px;
   flex-grow: 2;
   border: 1px dashed rgb(0, 0, 0);
 }
 
 .rose {
-  background-color: #ffc0ca;
-  height: 300px;
-  flex-grow: 1;
-  border: 1px dashed rgb(0, 0, 0);
+  text-align: center;
 }
 
 .green {
@@ -224,7 +218,6 @@ footer {
 
 .main.white > .conteiner {
   display: flex;
-  background-color: #7fffd4;
   justify-content: space-between;
 }
 
