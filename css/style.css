@@ -89,6 +89,18 @@ h2 {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
+.wave-gray {
+  height: 100px;
+  background-image: url(../img/wave.svg);
+  filter: opacity(0.17);
+}
+
+.wavewhite {
+  height: 100px;
+  background-image: url(../img/wave.svg);
+  filter: opacity(0.1);
+}
 /* header */
 
 header {
@@ -199,6 +211,7 @@ main {
 
 .main.white > .conteiner {
   display: flex;
+  padding-bottom: 100px;
 }
 .foot.white > .conteiner {
   display: flex;
