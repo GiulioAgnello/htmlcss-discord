@@ -128,7 +128,7 @@ header {
 
 .header-blu {
   background-image: url(../img/jumbo.png);
-  background-size: 100%;
+  background-size: cover;
   padding: 30px;
   min-height: 400px;
 }
