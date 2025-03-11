@@ -115,6 +115,11 @@ header {
   flex-grow: 2;
   text-align: center;
   padding: 10px;
+  margin: 0px 20px;
+}
+
+.linkhead {
+  margin: 0px 25px;
 }
 
 .log {
